@@ -37,7 +37,7 @@
 
 		<!---navbar--->
 
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+			<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" >
 		         <div class="container">
 			        <a class="navbar-brand" href="#"><h2 class="Nothing text-white">CA</h2></a>
 			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,10 +46,10 @@
 		        	<div class="collapse navbar-collapse" id="navbarNav">
 			          <ul class="navbar-nav ml-auto"> 
 			            <li class="nav-item active">
-			              	<a class="nav-link" href="#">Sobre mi</a>
+			              	<a class="nav-link" href="#about">Sobre mi</a>
 			            </li>
 			            <li class="nav-item active">
-			            	<a class="nav-link" href="#">Experiencia</a>
+			            	<a class="nav-link" href="#experiencia">Experiencia</a>
 			            </li>
 			            <li class="nav-item active">
 			              	<a class="nav-link" href="#">Trabajos</a>
@@ -64,24 +64,134 @@
 
 		<!---header--->
 	
-			<header class="hero text-dark text-center py-5 my-3">
-				<div class="container my-">
-					<h1>Yo Soy</h1>
+			<header class="hero text-dark text-center pt-5 mt-5">
+				<div class="container pt-5 mt-5">
+					<h1 class="font-weight-bold">Yo Soy</h1>
 					<h2 class="Nothing">Carlos Araya</h2>
 				</div>
 			</header>
-	
-			<section class="" id="">
-				
+
+		<!-- acerca de mi--->
+
+			<section id="about" class="container text-center my-5">
+	            <h2 class="display-3 my-4">Sobre mí</h2>
+	            <h3 class="my-4 font-weight-light">Producto Musical, Ingeniero en Marketing, Master en Marketing Digital y Analítica Web.</h3>	
+
+	            <div class="row">
+	            	<div class="col-md-6">
+			          <i class="fas fa-briefcase fa-3x my-3"></i>
+			          <p class="my-3">Profesional con 5 años de experiencia en marketing digital, comunicaciones y ventas, donde he liderado actividades de marketing, gestión de inteligencia de negocio y clientes, automatización y estrategias de marketing digital e inbound marketing.</p>
+        			</div>
+
+        			<div class="col-md-6">
+			          <i class="fas fa-certificate fa-3x my-3"></i>
+			          <p class="my-3">Estoy certificado como Partner de Hubspot, además poseo experiencia con Google Marketing Platform (Ads, Analytics, Tag Manager, Optimize), Business Facebook, softwares de gestión como Accelo, Asana, jira, Trello, herramientas como Semrush, Databox, manejo de la suite creativa de Adobe y experiencia de trabajo con metodologías scrum y agile como Product Owner.</p>
+        			</div>
+	            	
+	            </div>		
 			</section>
 	
-			<article class="" id="">
-				
-			</article>
+		<!-- experiencia -->
+			<div class="container my-5 py-3">
+		      <div class="row">
+		        <div class="col-12 p-4 text-center">
+		          <h2 id="experience" class="display-3 my-4">Experiencia</h2>
+		        </div>
+		        <div class="col-12 bg-secondary text-white rounded pt-4 pb-5">
+		          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+		            <ol class="carousel-indicators">
+		              <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+		              <li data-target="#blogCarousel" data-slide-to="1"></li>
+		            </ol>
+
+		            <div class="carousel-inner">
+
+		              <div class="carousel-item active text-center">
+		                <div class="row">
+		                  <div class="col-4">
+		                    <i class="fas fa-tv fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="TV"></i>
+		                  </div>
+		                  <div class="col-4">
+		                    <i class="fas fa-music fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Music"></i>
+		                  </div>
+		                  <div class="col-4">
+		                    <i class="fas fa-ad fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Ad"></i>
+		                  </div>
+		                </div>
+		              </div>
+
+		              <div class="carousel-item text-center">
+		                <div class="row">
+		                  <div class="col-4">
+		                    <i class="fas fa-car-side fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="automotive"></i>
+		                  </div>
+		                  <div class="col-4">
+		                    <i class="fas fa-user-tie fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Business"></i>
+		                  </div>
+		                  <div class="col-4">
+		                    <i class="fas fa-project-diagram fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Project"></i>
+		                  </div>
+		                </div>
+		              </div>
+
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
 	
-			<aside class="" id="">
-				
-			</aside>
+		<!-- mis trabajos-->
+
+			<section class="container-fluid my-5 p-5 bg-secondary" id="work">
+      			<h2 class="display-4 text-center text-light mb-3">Mis últimos trabajos</h2>
+      			<div class="card-deck">
+			        <div class="card">
+			          <img class="card-img-top" src="assets/img/card-1.jpg" alt="Card image cap">
+			          <div class="card-body">
+			            <h5 class="card-title">Asado en la Patagonia</h5>
+			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iure sint, perspiciatis distinctio molestias nihil repudiandae neque rem adipisci repellendus libero illo quo blanditiis, velit quasi ad, recusandae voluptates officia.</p>
+			          </div>
+			        </div>
+			        <div class="card">
+			          <img class="card-img-top" src="assets/img/card-2.jpg" alt="Card image cap">
+			          <div class="card-body">
+			            <h5 class="card-title">Papas del fin del mundo</h5>
+			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
+			          </div>
+			        </div>
+			        <div class="card">
+			          <img class="card-img-top" src="assets/img/card-3.jpg" alt="Card image cap">
+			          <div class="card-body">
+			            <h5 class="card-title">Salmones de Alaska</h5>
+			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati facere quibusdam sint id laborum magni velit ducimus corporis facilis qui architecto dolor, accusamus eveniet exercitationem fugit. Quod autem neque ducimus.</p>
+			          </div>
+        			</div>
+      			</div>
+      			<div class="card-deck">
+			        <div class="card">
+			          <img class="card-img-top" src="assets/img/card-1.jpg" alt="Card image cap">
+			          <div class="card-body">
+			            <h5 class="card-title">Asado en la Patagonia</h5>
+			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iure sint, perspiciatis distinctio molestias nihil repudiandae neque rem adipisci repellendus libero illo quo blanditiis, velit quasi ad, recusandae voluptates officia.</p>
+			          </div>
+			        </div>
+			        <div class="card">
+			          <img class="card-img-top" src="assets/img/card-2.jpg" alt="Card image cap">
+			          <div class="card-body">
+			            <h5 class="card-title">Papas del fin del mundo</h5>
+			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
+			          </div>
+			        </div>
+			        <div class="card">
+			          <img class="card-img-top" src="assets/img/card-3.jpg" alt="Card image cap">
+			          <div class="card-body">
+			            <h5 class="card-title">Salmones de Alaska</h5>
+			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati facere quibusdam sint id laborum magni velit ducimus corporis facilis qui architecto dolor, accusamus eveniet exercitationem fugit. Quod autem neque ducimus.</p>
+			          </div>
+        			</div>
+      			</div>	
+    		</section>
 		
 			<footer class="" id="">
 				
