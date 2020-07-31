@@ -9,6 +9,11 @@
 	font-weight: 400;
 }
 
+.Negro {
+	color: #ffffff;
+	background-color: #ffffff;
+}
+
 .Nothing {
 	font-family: Nothing You Could Do;
 }
@@ -23,7 +28,7 @@
 }
 
 .carousel-indicators {
-  top: 75px;
+  top: 100px;
 }
 
 .carousel-indicators li {

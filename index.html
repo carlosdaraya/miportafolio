@@ -37,7 +37,7 @@
 
 		<!---navbar--->
 
-			<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" >
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
 		         <div class="container">
 			        <a class="navbar-brand" href="#"><h2 class="Nothing text-white">CA</h2></a>
 			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,13 +49,13 @@
 			              	<a class="nav-link" href="#about">Sobre mi</a>
 			            </li>
 			            <li class="nav-item active">
-			            	<a class="nav-link" href="#experiencia">Experiencia</a>
+			            	<a class="nav-link" href="#experience">Experiencia</a>
 			            </li>
 			            <li class="nav-item active">
-			              	<a class="nav-link" href="#">Trabajos</a>
+			              	<a class="nav-link" href="#work">Trabajos</a>
 			            </li>
 			             <li class="nav-item active">
-			              	<a class="nav-link" href="#">Contacto</a>
+			              	<a class="nav-link" href="#contact">Contacto</a>
 			            </li>
 			          </ul>
 		       		</div>
@@ -66,16 +66,16 @@
 	
 			<header class="hero text-dark text-center pt-5 mt-5">
 				<div class="container pt-5 mt-5">
-					<h1 class="font-weight-bold">Yo Soy</h1>
-					<h2 class="Nothing">Carlos Araya</h2>
+					<h1 class="Nothing display-3 mt-5">Carlos Araya</h2>
 				</div>
 			</header>
 
 		<!-- acerca de mi--->
 
-			<section id="about" class="container text-center my-5">
-	            <h2 class="display-3 my-4">Sobre mí</h2>
-	            <h3 class="my-4 font-weight-light">Producto Musical, Ingeniero en Marketing, Master en Marketing Digital y Analítica Web.</h3>	
+			<section id="about" class="container text-center my-5 d-none d-lg-block">
+				
+	            <h2 class="display-4 my-4">Sobre mí</h2>
+	            <h4 class="my-4 font-weight-light">Productor Musical, Ingeniero en Marketing, Master en Marketing Digital y Analítica Web.</h4>	
 
 	            <div class="row">
 	            	<div class="col-md-6">
@@ -86,18 +86,17 @@
         			<div class="col-md-6">
 			          <i class="fas fa-certificate fa-3x my-3"></i>
 			          <p class="my-3">Estoy certificado como Partner de Hubspot, además poseo experiencia con Google Marketing Platform (Ads, Analytics, Tag Manager, Optimize), Business Facebook, softwares de gestión como Accelo, Asana, jira, Trello, herramientas como Semrush, Databox, manejo de la suite creativa de Adobe y experiencia de trabajo con metodologías scrum y agile como Product Owner.</p>
-        			</div>
-	            	
+        			</div>	
 	            </div>		
 			</section>
 	
 		<!-- experiencia -->
-			<div class="container my-5 py-3">
+			<div id="experience" class="container my-5 py-3">
 		      <div class="row">
 		        <div class="col-12 p-4 text-center">
-		          <h2 id="experience" class="display-3 my-4">Experiencia</h2>
+		          <h2 class="display-4 my-4">Experiencia</h2>
 		        </div>
-		        <div class="col-12 bg-secondary text-white rounded pt-4 pb-5">
+		        <div class="col-12 bg-dark text-white rounded pt-4 pb-5">
 		          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
 
 		            <ol class="carousel-indicators">
@@ -111,26 +110,32 @@
 		                <div class="row">
 		                  <div class="col-4">
 		                    <i class="fas fa-tv fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="TV"></i>
+		                    <p>TV & Medios</p>
 		                  </div>
 		                  <div class="col-4">
 		                    <i class="fas fa-music fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Music"></i>
+		                    <p>Producción Musical</p>
 		                  </div>
 		                  <div class="col-4">
 		                    <i class="fas fa-ad fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Ad"></i>
+		                    <p>Advertising</p>
 		                  </div>
 		                </div>
 		              </div>
-
+		              
 		              <div class="carousel-item text-center">
 		                <div class="row">
 		                  <div class="col-4">
 		                    <i class="fas fa-car-side fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="automotive"></i>
+		                    <p>Automotriz</p>
 		                  </div>
 		                  <div class="col-4">
 		                    <i class="fas fa-user-tie fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Business"></i>
+		                    <p>Negocios</p>
 		                  </div>
 		                  <div class="col-4">
 		                    <i class="fas fa-project-diagram fa-4x" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Project"></i>
+		                    <p>Marketing Digital</p>
 		                  </div>
 		                </div>
 		              </div>
@@ -143,76 +148,94 @@
 	
 		<!-- mis trabajos-->
 
-			<section class="container-fluid my-5 p-5 bg-secondary" id="work">
+			<section class="container my-5 p-5 bg-dark" id="work">
       			<h2 class="display-4 text-center text-light mb-3">Mis últimos trabajos</h2>
-      			<div class="card-deck">
+
+      			<div class="card-deck my-2 p-2">
 			        <div class="card">
-			          <img class="card-img-top" src="assets/img/card-1.jpg" alt="Card image cap">
+			          <img class="card-img-top" src="assets/img/meet_coffee.png" alt="Card image cap">
 			          <div class="card-body">
-			            <h5 class="card-title">Asado en la Patagonia</h5>
-			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iure sint, perspiciatis distinctio molestias nihil repudiandae neque rem adipisci repellendus libero illo quo blanditiis, velit quasi ad, recusandae voluptates officia.</p>
+			            <h5 class="card-title">Meet&Coffee</h5>
+			            <p class="card-text">Prototipo creado para el curso UX/UI de Talento Digital, Julio 2020</p>
 			          </div>
 			        </div>
 			        <div class="card">
-			          <img class="card-img-top" src="assets/img/card-2.jpg" alt="Card image cap">
+			          <img class="card-img-top" src="assets/img/iguana_page.png" alt="Card image cap">
 			          <div class="card-body">
-			            <h5 class="card-title">Papas del fin del mundo</h5>
-			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
+			            <h5 class="card-title">Iguana Page</h5>
+			            <p class="card-text">Prototipo creado para el curso UX/UI de Talento Digital, Julio 2020</p>
 			          </div>
 			        </div>
 			        <div class="card">
-			          <img class="card-img-top" src="assets/img/card-3.jpg" alt="Card image cap">
+			          <img class="card-img-top" src="assets/img/suricata.png" alt="Card image cap">
 			          <div class="card-body">
-			            <h5 class="card-title">Salmones de Alaska</h5>
-			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati facere quibusdam sint id laborum magni velit ducimus corporis facilis qui architecto dolor, accusamus eveniet exercitationem fugit. Quod autem neque ducimus.</p>
+			            <h5 class="card-title">Suricata</h5>
+			            <p class="card-text">Prototipo creado para el curso UX/UI de Talento Digital, Julio 2020</p>
 			          </div>
         			</div>
       			</div>
-      			<div class="card-deck">
+      			<div class="card-deck my-2 p-2">
 			        <div class="card">
-			          <img class="card-img-top" src="assets/img/card-1.jpg" alt="Card image cap">
+			          <img class="card-img-top" src="assets/img/cuppon.png" alt="Card image cap">
 			          <div class="card-body">
-			            <h5 class="card-title">Asado en la Patagonia</h5>
-			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo iure sint, perspiciatis distinctio molestias nihil repudiandae neque rem adipisci repellendus libero illo quo blanditiis, velit quasi ad, recusandae voluptates officia.</p>
+			            <h5 class="card-title">Cuppon</h5>
+			            <p class="card-text">Prototipo creado para el curso UX/UI de Talento Digital, Julio 2020</p>
 			          </div>
 			        </div>
 			        <div class="card">
-			          <img class="card-img-top" src="assets/img/card-2.jpg" alt="Card image cap">
+			          <img class="card-img-top" src="assets/img/ricomida.png" alt="Card image cap">
 			          <div class="card-body">
-			            <h5 class="card-title">Papas del fin del mundo</h5>
-			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
+			            <h5 class="card-title">Ricomida</h5>
+			            <p class="card-text">Prototipo creado para el curso UX/UI de Talento Digital, Julio 2020</p>
 			          </div>
 			        </div>
 			        <div class="card">
-			          <img class="card-img-top" src="assets/img/card-3.jpg" alt="Card image cap">
+			          <img class="card-img-top" src="assets/img/dmark.png" alt="Card image cap">
 			          <div class="card-body">
-			            <h5 class="card-title">Salmones de Alaska</h5>
-			            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati facere quibusdam sint id laborum magni velit ducimus corporis facilis qui architecto dolor, accusamus eveniet exercitationem fugit. Quod autem neque ducimus.</p>
+			            <h5 class="card-title">DMark</h5>
+			            <p class="card-text">Prototipo creado para el curso UX/UI de Talento Digital, Julio 2020</p>
 			          </div>
         			</div>
       			</div>	
     		</section>
+
+    		<!---contacto--->
+
+    		<section id="contact" class="container my-5 text-center">
+
+    		 <h2 class= display-4 my-4>Contáctame</h2>
+    		 <div class="typeform-widget my-5 p-5" data-url="https://form.typeform.com/to/OfSey9IM" data-transparency="61" data-hide-headers=true data-hide-footer=true style="width:100%; height: 100%;"></div> <script> (function() { var qs,js,q,s,d=document,gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> 
+    		 <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5;padding-top: 5px;"> powered by 
+    		 	<a href="https://admin.typeform.com/signup?utm_campaign=OfSey9IM&utm_source=typeform.com-01EEKB5NNRWMRB65PAKV98752D-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> 
+    		 </div>
+    		</section>
+
+    		<!--footer--->
 		
-			<footer class="" id="">
-				
+			<footer class="container-fluid bg-dark p-4 pl-2 bg-info"> 
+				<div class="container">
+					<div class="row">
+						<div>
+						<h5 class=" Nothing display-3 text-white">Carlos Araya</h5	>
+						</div>
+						<div class="ml-auto align-middle">
+							<i class="fab fa-instagram fa-5x p-2" style="color: #fff;"></i>
+							<i class="fab fa-linkedin-in fa-5x p-2" style="color: #fff;"></i>
+							<i class="fab fa-github fa-5x p-2" style="color: #fff;"></i>
+						</div>
+					</div>
+				</div>
 			</footer>
-	
-			<div class="">
-				
-			</div>
-
-
-
-
-
 
 		    
 		<!-- INSTRUCIONES PARA EL NAVEGADOR-->  	  
 		<!--jQuery 3.3.1-->
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<!--Popper JS 1.14.3-->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-
+		FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+		</script>
+		<!--Popper JS 1.16.0-->
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<!--Bootstrap JS 4.1.3-->
+		<!--Bootstrap JS 4.5.0-->
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 		<!--Mis Scripts-->
 		<script src="assets/js/javascript.js"></script>
