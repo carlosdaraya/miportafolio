@@ -18,5 +18,16 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 35rem;
+	padding-bottom: 10rem;
+	height: 30rem;
+}
+
+.carousel-indicators {
+  top: 75px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
 }
